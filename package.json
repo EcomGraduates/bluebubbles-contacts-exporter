@@ -1,0 +1,18 @@
+{
+  "name": "bluebubbles-contacts-exporter",
+  "version": "1.0.0",
+  "description": "Bluebubbles server contact formatter exporter thingy",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app"
+  },
+  "author": "EcomGraduates",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "open": "^8.3.0",
+    "request": "^2.88.2"
+  }
+}
