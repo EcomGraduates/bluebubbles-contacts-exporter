@@ -52,7 +52,7 @@ app.get("/contacts", (req, res) => {
                     }
                     // data to be pushed
                     dataPush = {
-                        "identifier": count,
+                        "identifier": count.toString(),
                         "displayName": contactName,
                         "phones": [
                             {
